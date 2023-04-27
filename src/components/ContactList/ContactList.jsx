@@ -3,6 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import { fetchContacts, deleteContact } from '../../redux/operation';
+import { useEffect } from 'react';
 
 export const ContactList = ({ data }) => {
   const dispatch = useDispatch();
