@@ -1,13 +1,18 @@
 .button {
-  margin-left: 15px;
-}
-
-li:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-li {
-  max-width: 380px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.contact {
+  width: fit-content;
+  min-width: 300px;
+  list-style: none;
+}
+.contactsContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
 }

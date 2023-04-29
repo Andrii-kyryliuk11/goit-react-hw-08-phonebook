@@ -1,4 +1,22 @@
 .nav {
   display: flex;
+  align-items: baseline;
   gap: 30px;
+  list-style: none;
+  color: #212122;
+  padding: 0;
+  margin-left: 40px;
+}
+a {
+  color: #212122;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.user {
+  margin-right: 40px;
 }

@@ -7,8 +7,8 @@ export async function fetchContacts() {
   return data;
 }
 export async function addContact(contact) {
-  axios.post('/', contact);
+  axios.post('/contacts', contact);
 }
 export async function deleteContact(id) {
-  axios.delete(`/${id}`);
+  axios.delete(`/contacts/${id}`);
 }
