@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/193.49f58771.chunk.css","mappings":"AAAA,+BAEE,oBAAqB,CADrB,YAEF","sources":["components/UserMenu/UserMenu.module.css"],"sourcesContent":[".menuContainer {\n  display: flex;\n  align-items: baseline;\n}\n"],"names":[],"sourceRoot":""}
